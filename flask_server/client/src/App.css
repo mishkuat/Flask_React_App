@@ -1,0 +1,66 @@
+
+
+/* Container to center the form and apply background styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #26A69A; /* Teal background */
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Input field */
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #00796B; /* Darker teal for buttons */
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 300px;
+}
+
+button:hover {
+  background-color: #004D40; /* Darker hover effect */
+}
+
+/* Adjust spacing and alignment */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
